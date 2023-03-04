@@ -1,0 +1,260 @@
+body {
+    position: relative;
+    width: 1352px;
+    height: 1117px;
+    background: #FFFFFF;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 86px;
+    position: absolute;
+    width: 1384px;
+    height: 101px;
+    left: 60px;
+    top: 57px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 21px rgba(0, 0, 0, 0.14);
+    border-radius: 8px;
+
+}
+
+.nav-item {
+    width: 169px;
+    height: 23px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.circle-area {
+    position: absolute;
+    width: 26px;
+    height: 23px;
+    left: 36px;
+    top: 39px;
+
+}
+
+.circle-area1 {
+    position: absolute;
+    width: 11px;
+    height: 23px;
+    left: -38px;
+    top: -40px;
+
+}
+
+.circle-area2 {
+    position: absolute;
+    width: 11px;
+    height: 23px;
+    left: -35px;
+    top: -40px;
+}
+
+
+.circle1 {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    left: 51px;
+    top: 39px;
+    background: #2A5852;
+}
+
+.circle2 {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    left: 51px;
+    top: 51px;
+    background: #865546;
+}
+
+.circle3 {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    left: 36px;
+    top: 39px;
+    background: #865546;
+}
+
+.circle4 {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    left: 36px;
+    top: 51px;
+    background: #2A5852;
+}
+
+.text3 {
+    position: absolute;
+    width: 133px;
+    height: 20px;
+    left: 33px;
+    top: 1.5px;
+    font-family: 'Now';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.8);
+
+}
+
+.home {
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    left: 291px;
+    top: 40.5px;
+    font-family: 'Now';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.books {
+    position: absolute;
+    width: 89px;
+    height: 20px;
+    left: 427px;
+    top: 40.5px;
+    font-family: 'Now';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.8);
+
+}
+
+.contacts {
+    position: absolute;
+    width: 77px;
+    height: 20px;
+    left: 602px;
+    top: 40.5px;
+    font-family: 'Now';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.8);
+
+}
+
+button {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: rgba(42, 88, 82, 0.97);
+    border-radius: 10px;
+    border-color: rgba(42, 88, 82, 0.97);
+    border-style: none;
+    
+}
+
+.content {
+    position: absolute;
+    width: 213px;
+    height: 65px;
+    left: 1232px;
+    top: 238px;
+    font-family: 'Now';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 0.8);
+
+}
+
+.array {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 1384px;
+    height: 450px;
+    left: 60px;
+    top: 337px;
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    width: 1384px;
+    height: 75px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    background: rgba(24, 84, 76, 0.81);
+    border-radius: 8px 8px 0px 0px;
+}
+
+.name {
+    width: 40px;
+    height: 20px;
+    font-family: 'Now';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.autor {
+    width: 54px;
+    height: 20px;
+    font-family: 'Now';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table tr:nth-child(odd) {
+    background-color: #EFEDED;
+}
+
+table tr:nth-child(even) {
+    background-color: #FFFFFF;
+}
+
+td {
+    text-align: center;
+    width: 1564px;
+    height: 75px;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
